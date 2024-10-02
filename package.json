@@ -1,5 +1,5 @@
 {
-  "name": "market_data_service",
+  "name": "watchlist_service",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -12,18 +12,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@opensearch-project/opensearch": "^2.11.0",
     "cors": "^2.8.5",
-    "csv-parse": "^5.5.6",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "path": "^0.12.7",
-    "protobufjs": "^7.3.2",
-    "socket.io": "^4.7.5",
-    "upstox-js-sdk": "^2.8.0",
-    "ws": "^8.18.0"
+    "mongoose": "^8.5.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
